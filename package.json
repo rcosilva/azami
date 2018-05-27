@@ -1,0 +1,28 @@
+{
+  "name": "azami",
+  "version": "1.0.0",
+  "description": "Azami New Website",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "desenvolvimento",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Rodrigo Silva",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rcosilva/azami.git"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "npm": "^6.1.0",
+    "reload": "^2.2.2"
+  }
+}
